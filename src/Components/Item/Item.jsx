@@ -1,13 +1,13 @@
 import React from "react";
 
-const Item = (pros) => {
+const Item = (props) => {
     return (
         <div>
-            <img src={pros.image} alt=""/>
-            <p>{pros.name}</p>
+            <img src={props.image} alt=""/>
+            <p>{props.name}</p>
             <div className='flex gap-5'>
-                <div>${this.props.new_price}</div>
-                <div className='line-through opacity-40'>${this.props.old_price}</div>
+                <div>${props.new_price}</div>
+                <div className='line-through opacity-40'>${props.old_price}</div>
             </div>
         </div>
     )
