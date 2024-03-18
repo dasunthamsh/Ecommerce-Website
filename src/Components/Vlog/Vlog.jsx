@@ -1,8 +1,6 @@
 import React from "react";
-import imgOne from "../../Assets/hotelOne.jpg";
-import imgTwo from "../../Assets/hotelTwo.jpg";
-import imgThree from "../../Assets/hotelThree.jpg";
-import imgFour from "../../Assets/hotelFour.jpg";
+import imgOne from "../../Assets/cinnamonGrand.png";
+
 
 const Vlog = () => {
 
@@ -32,7 +30,7 @@ const Vlog = () => {
                     <div>
                         <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                             <a href="#">
-                                <img className="rounded-t-lg" src={imgTwo} alt="" />
+                                <img className="rounded-t-lg" src={imgOne} alt="" />
                             </a>
                             <div className="p-5">
                                 <a href="#">
@@ -45,7 +43,7 @@ const Vlog = () => {
                     <div>
                         <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                             <a href="#">
-                                <img className="rounded-t-lg" src={imgThree} alt="" />
+                                <img className="rounded-t-lg" src={imgOne} alt="" />
                             </a>
                             <div className="p-5">
                                 <a href="#">
@@ -58,7 +56,7 @@ const Vlog = () => {
                     <div>
                         <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                             <a href="#">
-                                <img className="rounded-t-lg" src={imgFour} alt="" />
+                                <img className="rounded-t-lg" src={imgOne} alt="" />
                             </a>
                             <div className="p-5">
                                 <a href="#">
