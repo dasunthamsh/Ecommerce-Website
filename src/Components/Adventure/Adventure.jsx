@@ -1,9 +1,9 @@
 import React from "react";
 
-import imgOne from "../../Assets/one.png";
-import imgTwo from "../../Assets/two.png";
-import imgThree from "../../Assets/three.png";
-import imgFour from "../../Assets/four.png";
+import forest from "../../Assets/forest.png";
+import hiking from "../../Assets/hiking.png";
+import kayaking from "../../Assets/kayaking.png";
+import clibing from "../../Assets/mountainClibing.png";
 import {Link} from "react-router-dom";
 const Adventure = () => {
     return (
@@ -17,30 +17,30 @@ const Adventure = () => {
 
                     {/* Second Row */}
                     <div className="w-1/5 p-4 text-center">
-                        <img src={imgOne} alt="Province 6" className="w-full" />
+                        <img src={forest} alt="Province 6" className="w-full" />
                         <h1 className='pt-6 font-bold text-2xl'>FOREST ADVENTURE</h1>
-                        <h6 className=''>efefe fee ewff wefwfewf wef wef wef wf wef eefeef ef ef ef ef ef ef   w</h6>
+                        <h6 className=''>Sri Lanka offers diverse forest adventures for outdoor enthusiasts</h6>
                         <button type="button" className="text-black p-20  m-4 hover:scale-110  font-bold rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 bg-white "><Link to='/forestadventure'>Explore</Link></button>
                     </div>
 
                     <div className="w-1/5 p-4 text-center">
-                        <img src={imgTwo} alt="Province 7" className="w-full" />
+                        <img src={clibing} alt="Province 7" className="w-full" />
                         <h1 className='pt-6 font-bold text-2xl'>MOUNTAIN CLIMBING</h1>
-                        <h6 className=''>efefe fee ewff wefwfewf wef wef wef wf wef eefeef ef ef ef ef ef ef   w</h6>
+                        <h6 className=''>Mountain climbing enthusiasts will find several opportunities in Sri Lanka</h6>
                         <button type="button" className="text-black p-20  m-4 hover:scale-110  font-bold rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 bg-white "> Explore</button>
                     </div>
 
                     <div className="w-1/5 p-4 text-center">
-                        <img src={imgThree} alt="Province 8" className="w-full" />
+                        <img src={hiking} alt="Province 8" className="w-full" />
                         <h1 className='pt-6 font-bold text-2xl'>HIKING</h1>
-                        <h6 className=''>efefe fee ewff wefwfewf wef wef wef wf wef eefeef ef ef ef ef ef ef   w</h6>
+                        <h6 className=''>Hiking in Sri Lanka offers a variety of scenic trails breathtaking landscapes</h6>
                         <button type="button" className="text-black p-20  m-4 hover:scale-110  font-bold rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 bg-white "> Explore</button>
                     </div>
 
                     <div className="w-1/5 p-4 text-center">
-                        <img src={imgFour} alt="Province 9" className="w-full" />
+                        <img src={kayaking} alt="Province 9" className="w-full" />
                         <h1 className='pt-6 font-bold text-2xl'>KAYAKING</h1>
-                        <h6 className=''>efefe fee ewff wefwfewf wef wef wef wf wef eefeef ef ef ef ef ef ef   w</h6>
+                        <h6 className=''>Kayaking in Sri Lanka explores coastal, river, and inland waters.</h6>
                         <button type="button" className="text-black p-20  m-4 hover:scale-110  font-bold rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 bg-white "> Explore</button>
                     </div>
 
