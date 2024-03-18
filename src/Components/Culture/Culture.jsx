@@ -1,6 +1,12 @@
 import React from "react";
-import divImg from "../../Assets/nelum.png"
-import imgOne from "../../Assets/hotelOne.jpg";
+
+import galle from "../../Assets/galle.jpeg";
+import sigiriya from "../../Assets/sigiriya.jpg";
+import daladaTemple from "../../Assets/DaladaTemple.jpg";
+import elephent from "../../Assets/elep2.jpg";
+import nineArch from "../../Assets/nineaech.jpg";
+import unawatuna from "../../Assets/mathara.jpg";
+
 
 const Culture = () => {
     return (
@@ -17,7 +23,7 @@ const Culture = () => {
                         <div>
                             <div className="max-w-80 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-2">
                                 <a href="#">
-                                    <img className="rounded-t-lg" src={imgOne} alt="" />
+                                    <img className="rounded-t-lg" src={sigiriya} alt="" />
                                 </a>
                                 <div className="p-5">
                                     <a href="#">
@@ -34,7 +40,7 @@ const Culture = () => {
                         <div>
                             <div className="max-w-80 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-2">
                                 <a href="#">
-                                    <img className="rounded-t-lg" src={imgOne} alt="" />
+                                    <img className="rounded-t-lg" src={daladaTemple} alt="" />
                                 </a>
                                 <div className="p-5">
                                     <a href="#">
@@ -52,14 +58,14 @@ const Culture = () => {
                         <div>
                             <div className="max-w-80 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-2">
                                 <a href="#">
-                                    <img className="rounded-t-lg" src={imgOne} alt="" />
+                                    <img className="rounded-t-lg" src={elephent} alt="" />
                                 </a>
                                 <div className="p-5">
                                     <a href="#">
-                                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Udawalawe National Park</h5>
                                     </a>
-                                    <h6 className="pt-3 pb-3">Ancient Ruins</h6>
-                                    <h6>The ‘Rock’ is a monolith that rises 200 vertical metres from the surrounding plain, which was then, in an extraordinary…</h6>
+                                    <h6 className="pt-3 pb-3">National Parks</h6>
+                                    <h6>Udawalawe National Park is one of the most renowned national parks in Sri Lanka, situated in the southern part of the country. It spans over 30,000 hectares and is primarily known for its large population of wild Asian elephants. The park was established in 1972.....</h6>
                                 </div>
                             </div>
                         </div>
@@ -73,14 +79,14 @@ const Culture = () => {
                         <div>
                             <div className="max-w-80 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-2">
                                 <a href="#">
-                                    <img className="rounded-t-lg" src={imgOne} alt="" />
+                                    <img className="rounded-t-lg" src={nineArch} alt="" />
                                 </a>
                                 <div className="p-5">
                                     <a href="#">
-                                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Nine Arches Bridge</h5>
                                     </a>
-                                    <h6 className="pt-3 pb-3">Ancient Ruins</h6>
-                                    <h6>The ‘Rock’ is a monolith that rises 200 vertical metres from the surrounding plain, which was then, in an extraordinary…</h6>
+                                    <h6 className="pt-3 pb-3">Points of Interest & Landmarks</h6>
+                                    <h6>The Nine Arches Bridge, affectionately known as the Bridge in the Sky, stands as an iconic testament to both Sri Lanka's rich colonial history and its stunning natural beauty. Situated in the picturesque town of Ella, nestled amidst the verdant hills of Sri Lanka's central.....</h6>
                                 </div>
                             </div>
                         </div>
@@ -90,14 +96,14 @@ const Culture = () => {
                         <div>
                             <div className="max-w-80 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-2">
                                 <a href="#">
-                                    <img className="rounded-t-lg" src={imgOne} alt="" />
+                                    <img className="rounded-t-lg" src={unawatuna} alt="" />
                                 </a>
                                 <div className="p-5">
                                     <a href="#">
-                                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Unawatuna Beach</h5>
                                     </a>
-                                    <h6 className="pt-3 pb-3">Ancient Ruins</h6>
-                                    <h6>The ‘Rock’ is a monolith that rises 200 vertical metres from the surrounding plain, which was then, in an extraordinary…</h6>
+                                    <h6 className="pt-3 pb-3">Beaches</h6>
+                                    <h6>Unawatuna Beach, often hailed as one of Sri Lanka's most stunning coastal destinations, boasts a combination of natural beauty, vibrant atmosphere, and a wide array of recreational activities. Situated just a short distance from the historic city of Galle in the southern part.....</h6>
                                 </div>
                             </div>
                         </div>
@@ -107,14 +113,14 @@ const Culture = () => {
                         <div>
                             <div className="max-w-80 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-2">
                                 <a href="#">
-                                    <img className="rounded-t-lg" src={imgOne} alt="" />
+                                    <img className="rounded-t-lg" src={galle} alt="" />
                                 </a>
                                 <div className="p-5">
                                     <a href="#">
-                                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Galle Fort</h5>
                                     </a>
-                                    <h6 className="pt-3 pb-3">Ancient Ruins</h6>
-                                    <h6>The ‘Rock’ is a monolith that rises 200 vertical metres from the surrounding plain, which was then, in an extraordinary…</h6>
+                                    <h6 className="pt-3 pb-3">Historic Sites</h6>
+                                    <h6>Galle is a historic coastal city located in the Southern Province of Sri Lanka. Here's an overview of Galle and its attractions:</h6>
                                 </div>
                             </div>
                         </div>
